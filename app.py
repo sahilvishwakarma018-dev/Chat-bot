@@ -162,7 +162,7 @@ demo = gr.ChatInterface(
     title="Sahil Vishwakarma — Portfolio Assistant",
     description=(
         "Ask me anything about Sahil's skills, experience, or how to get in touch. "
-        "Powered by Groq LLM + LangChain RAG."
+        "Powered by LLM + LangChain RAG."
     ),
     examples=[
         "What technologies does Sahil work with?",
@@ -173,4 +173,5 @@ demo = gr.ChatInterface(
 )
 
 if __name__ == "__main__":
+    # demo.queue()
     demo.launch()
